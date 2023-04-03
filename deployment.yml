@@ -20,10 +20,3 @@ spec:
         env:
         - name: ENV_VAR1
           value: "value1"
-        volumeMounts:
-        - name: config-volume
-          mountPath: /config
-      volumes:
-      - name: config-volume
-        configMap:
-          name: config-map
