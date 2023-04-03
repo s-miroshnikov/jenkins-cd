@@ -7,8 +7,8 @@ spec:
     app: hello-app
   ports:
   - name: http
-    port: 85
-    nodePort: 30080
+    port: 8080
+    nodePort: 85
     targetPort: 8080
   type: NodePort
 status:
