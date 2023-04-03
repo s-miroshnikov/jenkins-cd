@@ -8,5 +8,8 @@ spec:
   ports:
   - name: http
     port: 85
+    nodePort: 30080
     targetPort: 8080
-  type: ClusterIP
+  type: NodePort
+status:
+  loadBalancer: {}
